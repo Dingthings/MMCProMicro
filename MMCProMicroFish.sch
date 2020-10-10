@@ -378,8 +378,6 @@ Wire Wire Line
 Wire Wire Line
 	1900 2700 2600 2700
 Wire Wire Line
-	1100 3600 1100 3950
-Wire Wire Line
 	1100 3950 1900 3950
 Connection ~ 1900 3950
 Text GLabel 1400 3400 2    50   Input ~ 0
@@ -678,17 +676,6 @@ Text GLabel 4750 3800 2    50   Output ~ 0
 PD5
 Wire Wire Line
 	4600 3800 4750 3800
-$Comp
-L Device:Resonator X1
-U 1 1 5B775AC8
-P 1100 3400
-F 0 "X1" H 1100 3648 50  0000 C CNN
-F 1 "Resonator" H 1100 3557 50  0000 C CNN
-F 2 "proj_local:Resonator_SMD_muRata_CSTxExxV-3Pin_3.0x1.1mm_HandSoldering_Compact" H 1075 3400 50  0001 C CNN
-F 3 "~" H 1075 3400 50  0001 C CNN
-	1    1100 3400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1250 3400 1400 3400
 Wire Wire Line
